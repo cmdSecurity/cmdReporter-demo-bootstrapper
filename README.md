@@ -12,6 +12,7 @@ The infosec application uses accelerated data models and data may not appear for
 This script will enable acceleration on all relevant data models in splunk, no action is required
 
 Files Installed:  
+Normal Splunk enterprise files plus:  
 /Applications/Splunk  
 ├── etc  
 │   ├── apps  
