@@ -10,7 +10,7 @@ Automatically stand up a local Splunk enterprise trial with relevant addons and 
 **Note:**
 The infosec application uses accelerated data models and data may not appear for up to 15 minutes depending on your hardware speed
 This script will enable acceleration on all relevant data models in splunk, no action is required
-
+```
 Files Installed:  
 Normal Splunk enterprise files plus:  
 /Applications/Splunk  
@@ -23,5 +23,5 @@ Normal Splunk enterprise files plus:
 │   │   ├── missile_map  
 │   │   ├── punchcard_app  
 │   │   ├── sankey_diagram_app  
-
+```
 
