@@ -7,7 +7,7 @@ This script will enable acceleration on all relevant data models in splunk, no a
 
 **Usage:**
 1) Download and run this script
-2) Follow script prompts
+2) Follow script prompts to create a Splunk admin user
 3) There is no step 3
 
 **Example Video:**  
