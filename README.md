@@ -5,7 +5,7 @@ Automatically stand up a local Splunk enterprise trial with relevant addons and 
 The infosec application uses accelerated data models and data may not appear in the dashboards for up to 15 minutes depending on your hardware speed
 This script will enable acceleration on all relevant data models in splunk, no action is required
 
-The data model status panel will show 100% complete status for most data_models once acceleration is complete
+The "All Data Models: Status" panel will show 100% complete status for most data_models once acceleration is complete
 http://localhost:8000/en-US/app/InfoSec_App_for_Splunk/infosec_stats
 
 **Usage:**
