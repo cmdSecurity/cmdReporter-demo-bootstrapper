@@ -4,9 +4,11 @@ GUI_USER=$(who | grep console | grep -v '_mbsetupuser' | awk '{print $1}')
 
 DESTINATION_FOLDER="/Applications/splunk/etc/apps/"
 SPLUNK_INSTALL_PATH="/Applications/"
-SPLUNK_DOWNLOAD_URL="https://files.cmdreporter.com/splunk-support/splunk-7.2.6-c0bf0f679ce9-darwin-64.tgz"
-# SPLUNK_DOWNLOAD_URL="https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86&platform=macos&version=7.2.6&product=splunk&filename=splunk-7.2.6-c0bf0f679ce9-darwin-64.tgz&wget=true"
-SPLUNK_DOWNLOAD_MD5="95adddd0009d136aba0541c742c70805" # MD5 (splunk-7.2.6-c0bf0f679ce9-darwin-64.tgz)
+# SPLUNK_DOWNLOAD_URL="https://files.cmdreporter.com/splunk-support/splunk-7.2.6-c0bf0f679ce9-darwin-64.tgz"
+SPLUNK_DOWNLOAD_URL="https://www.splunk.com/bin/splunk/DownloadActivityServlet?architecture=x86&platform=macos&version=8.0.2&product=splunk&filename=splunk-8.0.2-a7f645ddaf91-darwin-64.tgz&wget=true"
+# SPLUNK_DOWNLOAD_MD5="95adddd0009d136aba0541c742c70805" # MD5 (splunk-7.2.6-c0bf0f679ce9-darwin-64.tgz)
+SPLUNK_DOWNLOAD_MD5="3455ecd41860b9ee6afd34673f6fa1f7"
+
 
 INFOSEC_APP_URL="https://files.cmdreporter.com/splunk-support/infosec-app-for-splunk_140-custom.tgz"
 INFOSEC_APP_MD5="169a43a0c72bee0826150134d470a08a"
